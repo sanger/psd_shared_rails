@@ -14,12 +14,12 @@ Gem::Specification.new do |spec|
     some of the standard gems and infrastructure tooling used by PSD. It is unlikely
     to be of interest to other teams.
   DESCRIPTION
-  spec.homepage = 'http://www.github.com/sanger'
+  spec.homepage = 'https://github.com/sanger/psd_shared_rails'
   spec.required_ruby_version = Gem::Requirement.new('>= 2.6.0')
 
   spec.metadata['homepage_uri'] = spec.homepage
-  # spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  # spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata['source_code_uri'] = spec.homepage
+  spec.metadata['changelog_uri'] = "#{spec.homepage}/blob/main/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
